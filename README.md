@@ -10,9 +10,12 @@ Inspired by [lib-builder](https://github.com/TheUiTeam/lib-builder) and [ts-reac
 - Linter
 - Prettier
 
+## Limitations
+It does not include any frameworks and it supports only es module.
+
 ## Structure
 The packet expect that your code will be in the `src` folder.
-The build command will generate files in the `dist/esm` and `dist/cjs` folders for the es and common js module, respectively.
+The build command will generate files in the `dist`.
 
 ## Setup
 Unfortunately, the setup is a bit more involved than you might expect, as each library does it differently and has its own limitation. Additionally, some dev environments require config files to be set up in the project's root directory.
@@ -21,8 +24,11 @@ If you know how the set-up process could be improved, please open an issue or pu
 
 ### 1. Install
 Install as dependency
+
 `npm install typescript-dev-loop --save-dev`
+
 or 
+
 `yarn add -D typescript-dev-loop`
 
 ### 2. Typescript
