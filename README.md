@@ -64,7 +64,7 @@ Add to `package.json` file
 Create `jest.config.js` file
 
 ```js
-import jest from "typescript-dev-loop/jest" assert { type: "json" };
+import jest from "typescript-dev-loop/jest";
 export default jest;
 
 ```

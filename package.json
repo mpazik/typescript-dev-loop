@@ -18,8 +18,7 @@
     "config"
   ],
   "exports": {
-    "./eslint": "./config/eslint.json",
-    "./jest": "./config/jest.config.json"
+    "./jest": "./config/jest.config.js"
   },
   "bin": {
     "tdl-build": "bin/tlb-build",
