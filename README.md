@@ -11,11 +11,11 @@ Inspired by [lib-builder](https://github.com/TheUiTeam/lib-builder) and [ts-reac
 - Prettier
 
 ## Limitations
-It does not include any frameworks and it supports only es module.
+It does not include any frameworks.
 
 ## Structure
 The packet expect that your code will be in the `src` folder.
-The build command will generate files in the `dist`.
+The build command will generate files in the `dist`. Files are compiled by as es-modules but there is `dist/cjs` directory with common-js modules. 
 
 ## Setup
 Unfortunately, the setup is a bit more involved than you might expect, as each library does it differently and has its own limitation. Additionally, some dev environments require config files to be set up in the project's root directory.

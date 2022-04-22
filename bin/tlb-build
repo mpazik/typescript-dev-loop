@@ -1,4 +1,5 @@
 #!/bin/bash
 DIST_DIR=./dist
 rm -rf "${DIST_DIR}"
-yarn tsc --outDir "${DIST_DIR}"
+yarn tsc --outDir "${DIST_DIR}" &&
+yarn tsc --declaration false --module commonjs --outDir "${DIST_DIR}/cjs"
