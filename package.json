@@ -1,0 +1,49 @@
+{
+  "name": "typescript-dev-loop",
+  "version": "0.0.1",
+  "description": "A toolbox package that helps you quickly setup and easily manage your typescript dev loop for your library",
+  "type": "module",
+  "author": "Marek Pazik <contact@marekpazik.pl>",
+  "license": "mit",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mpazik/ts-lib-builder.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mpazik/ts-lib-builder/issues"
+  },
+  "homepage": "https://github.com/mpazik/ts-lib-builder#readme",
+  "files": [
+    "bin",
+    "config"
+  ],
+  "exports": {
+    "./eslint": "./config/eslint.json",
+    "./jest": "./config/jest.config.json"
+  },
+  "bin": {
+    "tdl-build": "bin/tlb-build",
+    "tdl-lint": "bin/tlb-lint",
+    "tdl-test": "bin/tlb-test"
+  },
+  "dependencies": {
+    "@swc/cli": "^0.1.57",
+    "@swc/core": "^1.2.170",
+    "@swc/jest": "^0.2.20",
+    "@types/jest": "^27.4.1",
+    "@typescript-eslint/eslint-plugin": "^5.20.0",
+    "@typescript-eslint/parser": "^5.20.0",
+    "eslint": "^8.13.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-unused-imports": "^2.0.0",
+    "jest": "^27.5.1",
+    "prettier": "^2.6.2",
+    "ts-jest": "^27.1.4",
+    "typescript": "^4.6.3"
+  },
+  "engines": {
+    "node": ">=12"
+  }
+}

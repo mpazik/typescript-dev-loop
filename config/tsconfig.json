@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "lib": [
+      "es2019",
+      "dom"
+    ],
+    "declaration": true,
+    "target": "ES2018",
+    "skipLibCheck": true,
+    "strict": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "esModuleInterop": true
+  }
+}

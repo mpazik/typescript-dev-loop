@@ -1,0 +1,2 @@
+#!/bin/bash
+yarn eslint ./src --ext .ts --fix && tsc --noEmit
