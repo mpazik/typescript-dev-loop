@@ -22,17 +22,15 @@ Unfortunately, the setup is a bit more involved than you might expect, as each l
 
 If you know how the set-up process could be improved, please open an issue or pull a request. All ideas and contributions are welcome!
 
-### 1. Install
-Install as dependency
+### Steps 
+#### 1. Install as dependency
+```bash
+npm install typescript-dev-loop --save-dev
+#  or 
+yarn add -D typescript-dev-loop
+```
 
-`npm install typescript-dev-loop --save-dev`
-
-or 
-
-`yarn add -D typescript-dev-loop`
-
-### 2. Typescript
-Create `tsconfig.json` file
+#### 2. Typescript - Create `tsconfig.json` file
 
 ```json
 {
@@ -48,8 +46,7 @@ Create `tsconfig.json` file
 }
 ```
 
-### 3. Lint
-Add to `package.json` file
+#### 3. Lint -Add to `package.json` file
 
 ```json
 {
@@ -60,8 +57,7 @@ Add to `package.json` file
 }
 ```
 
-### 4. Jest
-Create `jest.config.js` file
+####  4. Jest - Create `jest.config.js` file
 
 ```js
 import jest from "typescript-dev-loop/jest";
@@ -69,8 +65,7 @@ export default jest;
 
 ```
 
-### 5. Run scripts
-Add to `package.json` file
+#### 5. Run scripts - add to `package.json` file
 
 ```json
 {
