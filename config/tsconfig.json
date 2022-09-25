@@ -1,11 +1,11 @@
 {
   "compilerOptions": {
     "lib": [
-      "es2020",
+      "es2022",
       "dom"
     ],
     "declaration": true,
-    "target": "ES2018",
+    "target": "es2020",
     "skipLibCheck": true,
     "strict": true,
     "module": "esnext",
