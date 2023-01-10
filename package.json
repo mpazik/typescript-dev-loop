@@ -1,6 +1,6 @@
 {
   "name": "typescript-dev-loop",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "A toolbox package that helps you quickly setup and easily manage your typescript dev loop for your library",
   "keywords": [
     "toolbox",
@@ -34,6 +34,8 @@
     "tdl-test": "bin/tlb-test"
   },
   "dependencies": {
+    "@swc/core": "^1.3.25",
+    "@swc/jest": "^0.2.24",
     "@typescript-eslint/eslint-plugin": "^5.47.0",
     "@typescript-eslint/parser": "^5.47.0",
     "eslint": "^8.30.0",
@@ -46,6 +48,9 @@
     "prettier": "^2.8.1",
     "ts-jest": "^29.0.3",
     "typescript": "^4.9.4"
+  },
+  "resolutions": {
+    "@jest/create-cache-key-function": "29.3.1"
   },
   "engines": {
     "node": ">=12"
