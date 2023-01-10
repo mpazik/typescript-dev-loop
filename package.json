@@ -1,6 +1,6 @@
 {
   "name": "typescript-dev-loop",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "A toolbox package that helps you quickly setup and easily manage your typescript dev loop for your library",
   "keywords": [
     "toolbox",
